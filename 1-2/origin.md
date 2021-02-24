@@ -11,8 +11,8 @@
 - URN(Uniform Resource Name)
 
 ## URI, URN, URL 관계 - 그림
+![Untitled](https://user-images.githubusercontent.com/26040955/109015148-2f273e00-76f8-11eb-8f0f-4c2f11afba9b.png)
 
-![2%E1%84%8C%E1%85%A1%E1%86%BC%20URL%E1%84%80%E1%85%AA%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A9%E1%84%89%E1%85%B3%20859e64fe3bc74277a9fe10f917f518a0/Untitled.png](2%E1%84%8C%E1%85%A1%E1%86%BC%20URL%E1%84%80%E1%85%AA%20%E1%84%85%E1%85%B5%E1%84%89%E1%85%A9%E1%84%89%E1%85%B3%20859e64fe3bc74277a9fe10f917f518a0/Untitled.png)
 
 ## URL 문법
 
