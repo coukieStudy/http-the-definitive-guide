@@ -53,7 +53,7 @@ Cache Miss: 캐시에 원하는 사본이 없을 때.
 
 → 대부분의 캐시는 클라이언트가 사본을 요청하였으며 그 사본이 검사를 할 필요가 있을 정도로 충분히 오래된 경우에만 재검사
 
-//그림 추가 (그림 7-6)
+![image](https://user-images.githubusercontent.com/26040955/113158341-acede480-9276-11eb-83f3-357d4f0db99a.png)
 
 Cache Hit: 304 Not Modified
 
@@ -109,25 +109,8 @@ ex) [https://www.akamai.com/kr/ko/cdn/what-is-a-cdn.jsp](https://www.akamai.com/
 
 작은 캐시에서 캐시 부적중이 발생했을 때 더 큰 부모 캐시가 그 '걸러 남겨진' 트래픽을 처리하도록 하는 계층을 만드는 방식이 합리적인 경우가 많다.
 
-//그림 7-9 추가
+![image](https://user-images.githubusercontent.com/26040955/113158460-c4c56880-9276-11eb-93e8-7002ec94b672.png)
 
-## 7.7 캐시 처리 단계
-
-//그림 7-11 추가
-
-1. 요청 받기
-2. 파싱: 요청 메세지를 여러 부분을 파싱하여 헤더 부분을 조작하기 쉬운 자료 구조에 담는다.
-3. 검색: URL을 알아내고 그에 해당하는 로컬 사본이 있는지 검사한다.
-4. 신선도 검사: HTTP는 캐시가 일정 기간 동안 서버 문서의 사본을 보유할 수 있도록 해준다 → 일정 기간이 넘어가면 신선하지 않은 것으로 간주하고, 재검사 진행.
-5. 응답 생성: 캐시된 응답을 원 서버에서 온 것처럼 보이게 하고 싶기에, 캐시는 캐시된 서버 응답 헤더를 토대로 응답 헤더를 생성한다.
-    - 클라이언트에 맞게 헤더 조정
-        - Client가 응답을 HTTP/1.1을 기대한다면, 변경
-        - 캐시 신선도 정보를 삽입: Cache-Control, Age, Expires 헤더
-        - 요청이 proxy를 거쳐갔음을 알려주기 위해 종종 Via 헤더 삽입 ([https://withbundo.blogspot.com/2017/07/http-7-proxy-server.html](https://withbundo.blogspot.com/2017/07/http-7-proxy-server.html))
-6. 전송
-7. 로깅
-
-//그림 7-12 캐시 GET 요청 플로우 차트
 
 ## 참고
 
