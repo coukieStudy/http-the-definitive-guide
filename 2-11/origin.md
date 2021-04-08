@@ -42,7 +42,7 @@ HTTP에서는 없지만, 그 하위 레이어인 TCP/IP 레이어를 통해 알 
   - Authorization : 사용자가 특정 권한이 있는지 확인
   - **단 암호화를 제공하지는 않는다**
 - 클라이언트가 접근할 때, 로그인이 필요하다면 `401 Login Required` 응답을 보낼 수 있다
-  - http://iloveulhj.github.io/images/basic-auth/basic-auth2.png
+  - ![](http://iloveulhj.github.io/images/basic-auth/basic-auth2.png)
   - https://mc.coupang.com/ssr/desktop/order/list
 - 로그인이 성공한 이후에는 식별정보 토큰을 Authorization 헤더에 담아 session 유지
 
@@ -72,7 +72,7 @@ HTTP에서는 없지만, 그 하위 레이어인 TCP/IP 레이어를 통해 알 
   - key=value 의 구조
   - `NM_THEME_EDIT=; BMR=s=1617857251356&r=https://m.blog.naver.com/PostView.nhn?blogId=windkiy&logNo=150019086403&proxyReferer=https:%2F%2Fwww.google.com%2F&r2=https://www.google.com/; PM_CK_loc=e6d5fd2724d71735e7b78d0e29e6816836b53396669f13e25ea675b6795bea8a`
 
-https://lh3.googleusercontent.com/proxy/vQF72iNdd2SyZqiZ9YBwXdPhdPotVyIFIddyE8zO240xDt7Qa29Jk0WDfphlmEdcpzHVDcDJg2W2MvqPdahsYRGJ8eDhjLNHi2aYq0FHi5AH1YRF5RqSDoaQ4PkXd2QLEHBHopwOfAzbqpmpIoXvzULukDJXVGE8QECzoTruNQFy7eNFqn-QR6A7sB_-_bY
+![](https://lh3.googleusercontent.com/proxy/vQF72iNdd2SyZqiZ9YBwXdPhdPotVyIFIddyE8zO240xDt7Qa29Jk0WDfphlmEdcpzHVDcDJg2W2MvqPdahsYRGJ8eDhjLNHi2aYq0FHi5AH1YRF5RqSDoaQ4PkXd2QLEHBHopwOfAzbqpmpIoXvzULukDJXVGE8QECzoTruNQFy7eNFqn-QR6A7sB_-_bY)
 
 - 각 브라우저는 서로 다른 방식으로 쿠키를 저장
   - 크롬은 SQLite
@@ -89,7 +89,7 @@ https://lh3.googleusercontent.com/proxy/vQF72iNdd2SyZqiZ9YBwXdPhdPotVyIFIddyE8zO
     - `요일, DD-MM YY HH:MM:SS GMT`형식
 
 - 쿠키를 이용한 세션 유지 예시
-https://bebiangel.github.io/images/http-guide-chap11.png
+![](https://bebiangel.github.io/images/http-guide-chap11.png)
 
 - 쿠키와 캐싱 주의점
   - 캐시되지 말아야 할 문서는 표기
@@ -101,9 +101,9 @@ https://bebiangel.github.io/images/http-guide-chap11.png
 ### More
 - Cookie vs (Bearer) Token vs JWT
   - Cookie는 앞서 배운 것
-    - https://t1.daumcdn.net/cfile/tistory/994BEA345B53368401
+    - ![](https://t1.daumcdn.net/cfile/tistory/994BEA345B53368401)
   - Bearer Token은 Authorization 헤더에 사용하는 것
-    - https://t1.daumcdn.net/cfile/tistory/995EC2345B53368912
+    - ![](https://t1.daumcdn.net/cfile/tistory/995EC2345B53368912)
     - Stateless하다는 장점이 존재
   - JWT는 값을 인코딩 하는 방식
 
