@@ -22,7 +22,7 @@
 
 SSL(Secure Sockets Layer) 혹은 TLS(Transport Layer Security)를 이용하여 구현된다.
 
-이미지 1
+![image1](./캡쳐1.png)
 
 인/디코딩이 일어나는 층
 
@@ -64,7 +64,7 @@ https://ko.wikipedia.org/wiki/RSA_암호
 
 #### 14.5.1 서명은 암호 체크섬이다
 
-이미지
+![이미지2](./캡쳐2.png)
 
 요약본을 개인키로 암호화 / 공개키로 복호화 원본이랑 대조
 
@@ -97,6 +97,7 @@ https://tools.ietf.org/html/rfc5280.html
 HTTPS를 통한 
 
 한국의 공인인증서
+![이미지3](./캡쳐3.png)
 
 https://namu.wiki/w/SEED#s-4
 
